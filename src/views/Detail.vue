@@ -2,7 +2,13 @@
   <v-row>
     <v-col cols="12" md="4">
       <v-card class="mb-6">
-        <v-card-title>Order detail</v-card-title>
+        <v-card-title>
+          Order detail
+          <v-spacer></v-spacer>
+          <v-btn color="primary" small :to="{ name: 'Home' }">
+            <v-icon small left>mdi-home</v-icon> Home
+          </v-btn>
+        </v-card-title>
         
         <v-divider></v-divider>
         

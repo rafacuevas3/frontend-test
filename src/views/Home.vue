@@ -4,7 +4,7 @@
       Orders list
       <v-spacer></v-spacer>
       <v-btn color="success" depressed small @click="fetch">
-        <v-icon small left>mdi-refresh</v-icon> Actualizar
+        <v-icon small left>mdi-refresh</v-icon> refresh
       </v-btn>
     </v-card-title>
     <v-divider></v-divider>

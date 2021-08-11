@@ -2,7 +2,8 @@
   <v-app>
     <v-app-bar
       app
-      color="white"
+      dark
+      color="primary"
     >
       <h2>Frontend test</h2>
     </v-app-bar>
