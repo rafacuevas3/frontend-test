@@ -5,6 +5,11 @@
 npm install
 ```
 
+### Create file .env from .env.example and add API KEY var value
+```
+VUE_APP_AI_KEY=API_KEY
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -19,6 +24,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
